@@ -3,10 +3,10 @@ import type { Request, Response } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import userRoutes from "./modules/users/user.routes";
-import ticketRoutes from "./modules/tickets/ticket.routes";
-import kbRoutes from "./modules/knowledgebase/kb.routes";
-import notificationRoutes from "./modules/notifications/notification.routes";
+import userRoutes from "./modules/users/user.routes.js";
+import ticketRoutes from "./modules/tickets/ticket.routes.js";
+import kbRoutes from "./modules/knowledgebase/kb.routes.js";
+import notificationRoutes from "./modules/notifications/notification.routes.js";
 
 // Configuración de variables de entorno
 dotenv.config();
